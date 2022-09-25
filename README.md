@@ -2,9 +2,31 @@
 
 ### File structure
 
-**Conversational_text_similarity_dev.ipynb** :
+##### Notebooks
+**Conversational_text_similarity_dev.ipynb** : developmental notebook with a lot of functions required built and tested.
+**Conversational_text_similarity_prod.ipynb** : main production notebook used to experiment and train main models.
+
+##### Scripts
+**DataPreper.py** : class containing various data preparation methods.
+**BERTtuner.py** : class containing methods to fine-tune BERT using NSP (Next sentence prediction) and MLM (marked language modelling)
+**BERTpredictor.py** : class containing for inference using BERT models. (embedding extraction from hidden states)
+**QueryMatcher.py** : class which uses BERT inference methods to match queries with questions.
+**run.py** : script which invokes command line interface to write a query and find best matching question in a database.
+
+##### Folders
+**corpus**: contains logs (one file per log) in .txt format.
+**corpus_aug**: augmented logs in .txt format. (if corpus small and more data required).
+**corpus_indexed**: indexed corpus in .pickle format. (matching list indexes with file names)
+**corpus_labelled**: labelled corpus in .pickle format. (manual labels for relevant questions created for testing)
+**models**: trained BERT model and model tokenizer in .pickle format. (trained with best hyperparameters)
+**questions**: contains questions in .txt format.
+**questions_embeddings**: question embeddings infered using best BERT model and stored in .pickle format for quick access.
+**questions_indexed**: indexed questions in .pickle format. (matching questions with file names)
+
 
 ### Introduction
+
+Project description follows structure in main notebook - **Conversational_text_similarity_prod.ipynb**
 
 ##### Objective
 
