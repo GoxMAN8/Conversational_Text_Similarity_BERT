@@ -20,7 +20,6 @@ BERT model had been fine-tuned using combined NSP/MLP methodology (https://huggi
 
 ### BERT fine tunning (section 2)
 
-
 This is the main section for BERT model fine-tunning. Few different data augmentation strategies experimented with basic/default BERT hyperparemeters to establish benchmark model. 
 
 ##### Initial data prep
