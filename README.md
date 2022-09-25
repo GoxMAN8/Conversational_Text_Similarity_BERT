@@ -1,5 +1,9 @@
 # Conversational_Text_Similarity_BERT
 
+### File structure
+
+**Conversational_text_similarity_dev.ipynb** :
+
 ### Introduction
 
 ##### Objective
