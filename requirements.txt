@@ -1,0 +1,8 @@
+nlpaug
+pathlib
+transformers
+translators
+torch
+scipy
+bayesian-optimization
+argparse
