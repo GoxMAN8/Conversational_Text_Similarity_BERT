@@ -23,6 +23,8 @@
 **questions_embeddings**: question embeddings infered using best BERT model and stored in .pickle format for quick access. <br>
 **questions_indexed**: indexed questions in .pickle format. (matching questions with file names) <br>
 
+**requirements.txt** : contains packages required to replicate the results.
+
 
 ### Introduction
 
@@ -82,7 +84,7 @@ Objective function to be maximized (returning **top k precision**) had been crea
 
 ##### Optimize
 
-Bayesian optmization engine initiaed with 3 random initializations of parameters (within provided range) and 15 expectation maximization iterations. **Best parameters : ... **.
+Bayesian optmization engine initiaed with 3 random initializations of parameters (within provided range) and 15 expectation maximization iterations. **Best parameters : Best parameters : batch_size=14 (set 16 for final model), epochs=9, learning_rate=0.0063.**.
 
 ### Train and save best model (section 4)
 
