@@ -15,7 +15,6 @@
 
 ##### Folders <br>
 **corpus**: contains logs (one file per log) in .txt format. <br>
-**corpus_aug**: augmented logs in .txt format. (if corpus small and more data required). <br>
 **corpus_indexed**: indexed corpus in .pickle format. (matching list indexes with file names) <br>
 **corpus_labelled**: labelled corpus in .pickle format. (manual labels for relevant questions created for testing) <br>
 **models**: trained BERT model and model tokenizer in .pickle format. (trained with best hyperparameters) <br>
